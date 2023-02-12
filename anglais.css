@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat&family=Open+Sans&family=Playfair+Display&family=Poppins&family=Raleway&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  }
+  
+
+  /*stylisaton du header*/
+  header {
+    height: 50vh;
+    background: url("https://cdn.pixabay.com/photo/2020/06/14/10/58/london-5297395_1280.jpg");
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  header nav a {
+    color: #dcdcdc;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  header nav a:hover {
+    color: #fff;
+    border-bottom: 1px solid #919191;
+  }
+  
+  header .principal {
+    margin-top: 40px;
+  }
+  
+  header .principal h4 {
+    margin-top: -20px;
+    padding: 20px;
+  }
+
+
+  /*stylisation de la 1ere section*/
+  .premieres-presentation {
+    background-color: #FD841F;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+
+  }
+  
+  .premieres-presentation .gauche {
+    width: 60%;
+    margin-right: 85px;
+  }
+
+
+    /*stylisation de la 2eme section*/
+    .deuxieme-presentation {
+      background-color: #3E6D9C;
+      color: #fff;
+      padding: 30px;
+      display: flex;
+      flex-wrap: initial;
+    }
+    
+    .deuxieme-presentation .gauche {
+      width: 30%;
+      margin-right: 85px;
+    }
+
+
+  /*stylisation de la 3eme section*/
+  .troisieme-presentation {
+    background-color: #001253;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .troisieme-presentation .gauche {
+    width: 60%;
+    margin-right: 85px;
+  }
+
+
+    /*stylisation du footer*/
+    footer {
+      background-color: #171f28;
+      color: #fff;
+      padding: 30px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
